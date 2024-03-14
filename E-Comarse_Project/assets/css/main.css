@@ -1,0 +1,439 @@
+
+*{margin:0;padding: 0;}
+body{
+    overflow-x: hidden;
+    font-family: inherit;
+    font-size: 15px;
+    font-style:normal;
+}
+/*.logo-photo{
+    border-radius: 10px;
+    width: 70px;
+}*/
+             /*    <--<Header>-->  */
+.headerrr{
+    background-color: black;
+}
+.h-text a{
+    color: white;
+    font-family: inherit;
+    font-style: normal;
+    text-decoration:none;
+}
+.h-text a:hover{
+    color:red; 
+}
+.navbar{
+     box-shadow: -8px 7px 6px #565a5c;
+     }
+                /*    <--<navbar>-->  */   
+
+.search-w{ width: 300px;}
+.text-h a{ text-decoration:none; font-size:17px ; color:white; }
+.text-s { text-decoration:none; font-size:17px; color:white; }
+.text-h a:hover{ color:black; }
+.menu-d{ position:absolute; left: 63%;}
+.fa_user{
+    height: 30px;
+    width: 30px;
+}
+.nav_img{
+    height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	border: 2px solid #fff;
+
+}
+
+            /*     <--<First Home Part & Men & Women>-->    */
+
+.ph-1{
+    width: 9rem;
+    height: 180%;
+   
+    display: block;
+}
+.first-text{
+    color: black;
+    font-weight: 500;
+    font-size: .900rem;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 22ch;
+}
+.first-text :hover{
+    color: red;
+    text-decoration: none;
+}
+            /*    <--<slider-section>-->    */
+
+.slider-section{
+     box-shadow: -8px 7px 6px #565a5c;
+}
+.carousel-item{
+    height: 350px;
+}
+
+
+            /*  <More in sports>*/
+.margin_b{border-right: 3px solid #ff523b;}
+
+.img-fluid{
+    background-image: none;
+    width: 20rem;
+    height: 200%;
+    display: block;
+    border-radius: 15px;
+}
+.whishlist-icon{
+    margin-top: -25px !important;
+    margin-right: 13px;
+    bottom: 5px;
+}
+
+.add-cart:hover{
+    color: white; !important;
+}
+        /* <Footer>*/
+
+.f-text{
+    background-color:rgba(0, 0, 0, 0.2);
+}
+.f-color{
+    background-color: #232F3E;
+}
+.f-photo{
+    width: 90px;
+}
+.f-1{
+    width: 28px;
+}
+.t-photo{
+    width: 60px;
+    height: 35px;
+}
+        /*   <Blog Part>*/
+.blog-btn{
+    border-radius: 5px;
+}
+
+
+
+
+        /*   <All photo transition>*/
+
+.collection_img img{
+  width: 100%;
+  display: block;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.collection_img img:hover{
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.2);
+}
+
+        /*   <shoe1_innerpage_start>*/
+
+.flex-box{
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+}
+.left{
+    width: 50%;
+}
+.big-img{
+    width: 450px;
+}
+.big-img img{
+    width: inherit;
+    /* border: 1.5px solid black; */
+}
+.image{
+    display: flex;
+    justify-content:space-between;
+    width:90%;
+    margin-top: 15px;
+}
+.small-img{
+    width: 100px;
+    overflow: hidden;
+    border: 1.5px solid black;
+}
+.small-img img{
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.small-img:hover img{
+    transform: scale(1.2);
+}
+.url{
+    font-size: 17px;
+    font-weight: 400;
+    color: blue;
+}
+.shoe_name{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.price{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.size{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+.shoe_size{
+    width: 55px;
+    height: 27px;
+    border: 1px solid red;
+    color: black;
+    text-align: center;
+    margin: 0 10px;
+}
+.shoe_size.active{
+    color: orange;
+}
+.quantity{
+    display: flex;
+}
+.quantity p{
+    font-size:18px ;
+}
+.quantity input{
+    width: 30px;
+    font-size: 17px;
+    height: 28px;
+    text-align: center;
+    margin-left:10px;
+}
+.cart-btn{
+    color: white; !important;
+}
+.cart-btn:hover{
+    background-color: orange;
+    color: white; !important;
+}
+
+.buy-btn{
+    color: white;
+}
+.buy-btn:hover{
+    background-color: blue;
+    color: white; !important;
+}
+
+
+    /*AccountPage*/
+
+    .form-container{ 
+        width: 300px;
+        height: 450px;
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+        margin: auto;
+        box-shadow: 0 0 20px 0px rega(0,0,0,0,1);
+        overflow: hidden;
+        
+    }
+    .form-container span{
+        padding: 0 10px;
+        color: black;
+        cursor: pointer;
+        width: 100px;
+        display: inline-block;
+    }
+    .form-btn{
+        display: inline-block;
+    }
+    .form-container form{
+        max-width: 300px;
+        padding: 0 20px;
+        position: absolute;
+        top: 80px;
+        transition: transform 1s;
+    }
+    form input{
+        width: 100%;
+        height: 35px;
+        margin: 10px 0;
+        padding: 0 10px;
+        border: 1px solid black;
+        border-radius: 15px;
+        font-family: "FontAwesome";
+    }
+    form .btn{
+        width: 100%;
+        height: 35px;
+        border: none;
+        cursor: pointer;
+        margin: 10px 0;
+        background: #ff523b;
+        border-radius: 15px;
+    }
+    form .btn:focus{
+        outline: none;
+    }
+    #LoginForm{
+        left: 0;
+    }
+    #RegForm{
+        left: -300px;
+    }
+    form a{
+        font-size: 15px;
+    }
+    #Indicator{
+        width: 100px;
+        border: none;
+        background: #ff523b;
+        height: 3px;
+        margin-top: 8px;
+        margin-left: 0;
+        transform: translateX(100px);
+        transition: transform 1s;
+    }
+    
+
+    /* <Cricket Innerpage>*/
+.bg-col{
+    background-color:   #C0C0C0;
+}
+.c-photo{
+    width: 70px;
+    height: 60px;
+}
+.ok a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.ok a:hover{
+    color: red;
+}
+.l-photo{
+    width: 25px;
+    height: 25px;
+}
+
+
+    /*<add cart>*/
+
+.cart-page{
+      margin: 50px auto;
+ }
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
+.p-size{
+    width: 100px;
+    height: 100px;
+}
+td{padding: 8px 5px;}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%; 
+}
+.buy-b{padding-right: 11%;}
+
+
+    /* <--<Update Profile>--> */
+    
+.background_c {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-tab-nav {
+	min-width: 250px;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.nav-pills a.nav-link {
+	padding: 15px 20px;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	color: #333;
+}
+.nav-pills a.nav-link i {
+	width: 20px;
+}
+
+.img-circle img {
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	border: 3px solid #fff;
+}
+.profile-p{
+    margin-top: -25px !important;
+    margin-right:65px ;
+}
+
+
+
+
+.text-font{
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: .156rem;
+    font-size: 1.125rem;
+    }
+    .text-price{
+    padding: 0 .625rem;
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: .813rem;
+    letter-spacing: 1.6px;
+    }
+    .text-descriptions{
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    margin: .313rem 0 .938rem;
+    padding: 0 .625rem;
+    }
+    .button-color{
+    color: #4e4e4e ;
+    border-color: #4e4e4e ;
+    }
+    .button-order{
+    font-family: futura-pt,Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-size: .75rem;
+    font-weight: 700;
+    background-color: hsl(90, 40%, 50%);
+    color: white;
+    }
+
+
+    .ph-2{
+        width: 15rem;
+        height: 180%;
+       
+        display: block;
+    }
